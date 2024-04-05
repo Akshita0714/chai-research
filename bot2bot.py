@@ -5,7 +5,8 @@
 #This feature is essentially a solution to a personal problem of mine. I love reading stories and I love it when people tell me stories.
 #I thought it would be cool if 2 bots talking essentially could provide a story for me to read.
 #this is an attempt to enhance user experience.
-#additionally, there has been a max depth of conversation limit to prevent infinite loops. This is very customizable depending on the level of subscriber.
+#additionally, there has been a max depth of conversation limit to prevent infinite loops. 
+#This is very customizable and can be monetized depending on the subscriber bucket.
 #also something I realized today that CHAI already implements xD.
 
 import requests
@@ -90,6 +91,3 @@ if __name__ == '__main__':
     conversation = BotConversation(bot1, bot2)
     conversation.start()
 
-
-
-#interrupt is too expensive in code space as an improvement. think of another feature if you can.
