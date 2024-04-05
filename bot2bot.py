@@ -12,7 +12,7 @@
 import requests
 
 class Bot:
-    def __init__(self, name, user_name, memory="This is my initial memory.", max_depth=5):
+    def __init__(self, name, user_name, memory="This is my initial memory.", max_depth=10):
         self.name = name
         self.user_name = user_name
         self.memory = memory
